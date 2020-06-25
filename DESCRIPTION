@@ -1,0 +1,26 @@
+Package: cqrIS
+Type: Package
+Title: Censored Quantile Regression with Induced Smoothing
+Version: 0.1.0
+Authors@R: c(
+    person("Zexi", "Cai", email = "zxcai@link.cuhk.edu.hk", role = c("aut", "cre")),
+    person("Tony", "Sit", email = "tonysit@sta.cuhk.edu.hk", role = c("aut", "ctb")))
+Maintainer: Zexi Cai <zxcai@link.cuhk.edu.hk>
+Depends: R (>= 3.3.0)
+Description: This package is an implementation of the estimation and inference procedure of a censored quantile regression model to fit ordinary survival data, with interquantile smoothness improvements. It also provides tools to fit a censored quantile regression model to functional covariates and a recurrent event model to doubly-censored recurrent events.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    MASS,
+    methods,
+    quantreg,
+    stats,
+    survival
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/ZexiCAI/cqrIS
+BugReports: https://github.com/ZexiCAI/cqrIS/issues
